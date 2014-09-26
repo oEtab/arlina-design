@@ -7,7 +7,7 @@ $('a[href$=gif]:has(img)').lightBox();
 $('a[href$=bmp]:has(img)').lightBox();
 });
 
-//
+
 $(document).ready(function()
 {
 var aa=$(".cpright").val();
