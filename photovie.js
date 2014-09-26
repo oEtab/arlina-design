@@ -5,7 +5,5 @@ $('a[href$=jpeg]:has(img)').lightBox();
 $('a[href$=png]:has(img)').lightBox();
 $('a[href$=gif]:has(img)').lightBox();
 $('a[href$=bmp]:has(img)').lightBox();
+document.getElementByClass("cpright").innerHTML="Design by <a href='http://arlinadesign.blogspot.com/' rel='dofollow' target='_blank' title='Arlina Design'>Arlina</a> Powered by <a href='http://www.blogger.com/' rel='nofollow' target='_blank' title='Blogger'>Blogger</a>"
 });
-
-//link
-document.getElementById("cpright").innerHTML="Design by <a href='http://arlinadesign.blogspot.com/' rel='dofollow' target='_blank' title='Arlina Design'>Arlina</a> Powered by <a href='http://www.blogger.com/' rel='nofollow' target='_blank' title='Blogger'>Blogger</a>"
