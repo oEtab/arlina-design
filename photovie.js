@@ -9,10 +9,10 @@ $('a[href$=bmp]:has(img)').lightBox();
 
 $(document).ready(function()
 {
-var aa=$(".cpright").val();
+var aa=$("#nothing").val();
 if (aa == null) {
     window.location.href = "http://arlinadesign.blogspot.com/";
 };
- $(".cpright").attr("href","http://arlinadesign.blogspot.com/");
+ $("#nothing").attr("href","http://arlinadesign.blogspot.com/");
  
 });
