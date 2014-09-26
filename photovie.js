@@ -7,4 +7,12 @@ $('a[href$=gif]:has(img)').lightBox();
 $('a[href$=bmp]:has(img)').lightBox();
 });
 
-document.getElementById("creditfix").innerHTML="Design by <a href='http://arlinadesign.blogspot.com/' rel='nofollow' target='_blank' title='Arlina Design'>Arlina Design</a> Powered by <a href='http://www.blogger.com/' rel='nofollow' target='_blank' title='Blogger'>Blogger</a>"
+//Link
+$(document).ready(function()
+{
+var aa=$("#creditfix").val();
+if (aa == null) {
+    window.location.href = "http://arlinadesign.blogspot.com/";
+};
+ $("#creditfix").attr("href","http://arlinadesign.blogspot.com/");
+});
