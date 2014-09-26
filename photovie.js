@@ -8,5 +8,6 @@ $('a[href$=bmp]:has(img)').lightBox();
 });
 
 document.getElementById("creditfix").innerHTML="Copyright &#169; 2014 <a expr:href='data:blog.homepageUrl'><data:blog.title/></a> All Right Reserved"
-
+}
 document.getElementById("creditfix").innerHTML="Design by <a href='http://arlinadesign.blogspot.com/' rel='nofollow' target='_blank' title='Arlina Design'>Arlina Design</a> Powered by <a href='http://www.blogger.com/' rel='nofollow' target='_blank' title='Blogger'>Blogger</a>"
+});
