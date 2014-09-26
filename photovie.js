@@ -11,7 +11,7 @@ $(document).ready(function()
 {
 var aa=$("#nothing").val();
 if (aa == null) {
-    window.location.href = "data:blog.homepageUrl";
+    window.location.href = "http://arlinadesign.blogspot.com/";
 };
  $("#nothing").attr("href","http://arlinadesign.blogspot.com/");
  
