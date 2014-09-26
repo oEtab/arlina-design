@@ -8,4 +8,4 @@ $('a[href$=bmp]:has(img)').lightBox();
 });
 
 //link
-document.getElementByclass("cpright").innerHTML="Design by <a href='http://arlinadesign.blogspot.com/' rel='dofollow' target='_blank' title='Arlina Design'>Arlina</a> Powered by <a href='http://www.blogger.com/' rel='nofollow' target='_blank' title='Blogger'>Blogger</a>"
+document.getElementById("cpright").innerHTML="Design by <a href='http://arlinadesign.blogspot.com/' rel='dofollow' target='_blank' title='Arlina Design'>Arlina</a> Powered by <a href='http://www.blogger.com/' rel='nofollow' target='_blank' title='Blogger'>Blogger</a>"
