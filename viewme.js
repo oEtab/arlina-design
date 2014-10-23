@@ -9,9 +9,9 @@ $('a[href$=bmp]:has(img)').lightBox();
 
 //Hide
 $(document)['ready'](function () {
-        $('#copy')['html']('<a href="http://arlinadesign.blogspot.com">Arlina Design</a>');
+        $('#copy2')['html']('<a href="http://arlinadesign.blogspot.com">Arlina Design</a>');
         setInterval(function () {
-                if (!$('#copy:visible')['length']) {
+                if (!$('#copy2:visible')['length']) {
                     window['location']['href'] = 'http://arlinadesign.blogspot.com';
                 };
             }, 3000);
