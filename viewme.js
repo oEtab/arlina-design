@@ -7,13 +7,12 @@ $('a[href$=gif]:has(img)').lightBox();
 $('a[href$=bmp]:has(img)').lightBox();
 });
 
-//hide 1
-$(document).ready(function()
-{
-var aa=$("#copy").val();
-if (aa == null) {
-    window.location.href = "http://arlinadesign.blogspot.com/";
-};
- $("#copy").attr("href","http://arlinadesign.blogspot.com/");
-  
-});
+//Hide
+$(document)['ready'](function () {
+        $('#copy')['html']('<a href="http://arlinadesign.blogspot.com">Arlina Design</a>');
+        setInterval(function () {
+                if (!$('#copy:visible')['length']) {
+                    window['location']['href'] = 'http://arlinadesign.blogspot.com';
+                };
+            }, 3000);
+    });
