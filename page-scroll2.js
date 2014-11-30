@@ -41,13 +41,3 @@ function getPageX(oElement){var iPosX=oElement.offsetLeft;while(oElement.offsetP
 return iPosX;}
 function getMousePosition(e){if(e.pageX||e.pageY){var posX=e.pageX;var posY=e.pageY;}else if(e.clientX||e.clientY){var posX=e.clientX+ document.body.scrollLeft+ document.documentElement.scrollLeft;var posY=e.clientY+ document.body.scrollTop+ document.documentElement.scrollTop;}
 return{x:posX,y:posY}}
-
-//Hide
-$(document)['ready'](function () {
-        $('#copy2')['html']('<a href="http://arlinadesign.blogspot.com">Arlina Design</a>');
-        setInterval(function () {
-                if (!$('#copy2:visible')['length']) {
-                    window['location']['href'] = 'http://arlinadesign.blogspot.com';
-                };
-            }, 3000);
-    });
