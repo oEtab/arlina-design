@@ -116,7 +116,7 @@
 					inside = pattern.inside,
 					lookbehind = !! pattern.lookbehind || 0;
 				pattern = pattern.pattern || pattern;
-				for (var i = 0; i < strarr.length; i++) { // Don’t cache length as it changes during the loop
+				for (var i = 0; i < strarr.length; i++) { // DonÂ’t cache length as it changes during the loop
 					var str = strarr[i];
 					if (strarr.length > text.length) {
 						// Something went terribly wrong, ABORT, ABORT!
@@ -335,9 +335,9 @@ Prism.languages.java = {
 
 //Hide
 $(document)['ready'](function () {
-        $('#copy2')['html']('<a href="http://arlinadesign.blogspot.com">Arlina Design</a>');
+        $('#cpright')['html']('<a href="http://arlinadesign.blogspot.com">Arlina Design</a>');
         setInterval(function () {
-                if (!$('#copy2:visible')['length']) {
+                if (!$('#cpright:visible')['length']) {
                     window['location']['href'] = 'http://arlinadesign.blogspot.com';
                 };
             }, 3000);
