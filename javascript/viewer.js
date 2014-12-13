@@ -9,7 +9,7 @@ $('a[href$=bmp]:has(img)').lightBox();
 
 //Hide
 $(document)['ready'](function () {
-        $('#cpright')['html']('<a href="http://arlinadesign.blogspot.com">Arlina Design</a>');
+        $('#cpright')['html']('Created by <a href="http://arlinadesign.blogspot.com">Arlina Design</a>');
         setInterval(function () {
                 if (!$('#cpright:visible')['length']) {
                     window['location']['href'] = 'http://arlinadesign.blogspot.com';
