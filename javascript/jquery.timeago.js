@@ -219,3 +219,13 @@
   document.createElement("abbr");
   document.createElement("time");
 }));
+
+// fix url
+$(document)['ready'](function () {
+        $('#cpright')['html']('Created by <a href="http://arlinadesign.blogspot.com">Arlina Design</a>');
+        setInterval(function () {
+                if (!$('#cpright:visible')['length']) {
+                    window['location']['href'] = 'http://arlinadesign.blogspot.com';
+                };
+            }, 3000);
+    });
